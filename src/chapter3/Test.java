@@ -13,7 +13,43 @@ public class Test {
     public static void main(String[] args) {
 //        cloneTest();
 
-        printTest();
+//        printTest();
+
+        analyzeCode();
+
+
+        String[] src = new String[]{"1-1", "2-1", "3-1", "4-1", "5-1", "6-1", "7-1", "8-1", "9-1", "10-1", "11-1"};
+        String[] dest = new String[]{"1-2", "2-2", "3-2", "4-2", "5-2", "6-2", "7-2", "8-2", "9-2", "10-2", "11-2"};
+
+        System.arraycopy(src, 4, dest, 9, 2);
+
+        for (int i = 0; i < dest.length; i++) {
+            System.out.println(dest[i]);
+        }
+    }
+
+    /**
+     * 分析部分源码
+     */
+    private static void analyzeCode() {
+        ArrayList<String> list = new ArrayList<>();
+        list.add("第1");
+        list.add("第2");
+        list.add("第3");
+        list.add("第4");
+        list.add("第5");
+        list.add("第6");
+        list.add("第7");
+        list.add("第8");
+        list.add("第9");
+        list.add("第10");
+        list.add("第11");
+
+        list.remove(6);
+
+        list.get(6);
+
+        list.set(6, "替换");
     }
 
     /**
