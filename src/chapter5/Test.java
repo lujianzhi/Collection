@@ -14,14 +14,62 @@ public class Test {
 
 //        useLinkedListAsLIFO();
 
-        useLinkedListAsFIFO();
+//        useLinkedListAsFIFO();
+
+//        analyzeCodeAPIs();
+
+//        analyzeCodeLIFO();
+
+        analyzeCodeFIFO();
+    }
+
+    private static void analyzeCodeFIFO() {
+        LinkedList<String> queue = new LinkedList<>();
+
+        queue.add("第一");
+        queue.add("第二");
+        queue.add("第三");
+        queue.add("第四");
+
+        queue.remove();
+
+        queue.element();
+    }
+
+    private static void analyzeCodeLIFO() {
+        LinkedList<String> stuck = new LinkedList<>();
+
+        stuck.push("第一");
+        stuck.push("第二");
+        stuck.push("第三");
+        stuck.push("第四");
+
+        stuck.pop();
+
+        stuck.peek();
+    }
+
+    private static void analyzeCodeAPIs() {
+        LinkedList<String> linkedList = new LinkedList<>();
+
+        linkedList.add("第1");
+        linkedList.add("第2");
+        linkedList.add("第3");
+
+        linkedList.addFirst("将我addFirst到第一个位置");
+        linkedList.offerFirst("将我offerFirst到第一个位置");
+
+        linkedList.removeFirst();
+        linkedList.pollFirst();
+
+        linkedList.peekFirst();
     }
 
     /**
      * 将LinkedList当作 FIFO(先进先出)的队列
      */
     private static void useLinkedListAsFIFO() {
-        System.out.println("将LinkedList当作LIFO(后进先出)的堆栈");
+        System.out.println("将LinkedList当作 FIFO(先进先出)的队列");
         LinkedList<String> queue = new LinkedList<>();
 
         queue.add("第一");
