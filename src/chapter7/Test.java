@@ -9,6 +9,30 @@ import java.util.Stack;
 public class Test {
 
     public static void main(String[] args) {
+//        testAPI();
+
+        analyzeCode();
+    }
+
+    private static void analyzeCode() {
+        Stack<String> stack = new Stack<>();
+
+        stack.push("第1");
+        stack.push("第2");
+        stack.push("第3");
+        stack.push("第4");
+        stack.push("第5");
+        stack.push("第6");
+        stack.push("第7");
+
+        stack.search("第4");
+
+        stack.peek();
+
+        stack.pop();
+    }
+
+    private static void testAPI() {
         Stack<String> stack = new Stack<>();
 
         stack.push("第1");
