@@ -30,7 +30,6 @@ public class Test {
 
         map.values();
 
-
         LinkedHashMap<Integer, String> linkedMap = new LinkedHashMap<>();
         linkedMap.put(4, "第4");
         linkedMap.put(2, "第2");
