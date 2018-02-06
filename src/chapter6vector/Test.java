@@ -1,4 +1,4 @@
-package chapter6;
+package chapter6vector;
 
 import java.util.Vector;
 

@@ -1,4 +1,4 @@
-package chapter11;
+package chapter11hashmap;
 
 import java.util.Hashtable;
 

@@ -1,4 +1,4 @@
-package chapter13;
+package chapter13weakhashmap;
 
 import java.util.WeakHashMap;
 
