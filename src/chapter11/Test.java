@@ -16,12 +16,23 @@ public class Test {
     private static void analyzeCode() {
         Hashtable<String, String> hashtable = new Hashtable<>();
 
-        hashtable.put("asd", "value:asd");
-        hashtable.put("qwe", "value:qwe");
-        hashtable.put("qwe", "value:qwe * 2");
-        hashtable.put("zxc", "value:zxc");
+        hashtable.put("b", "value:b");
+        hashtable.put("e", "value:e");
+        hashtable.put("z", "value:z");
+        hashtable.put("d", "value:d");
+        hashtable.put("g", "value:g");
+        hashtable.put("a", "value:a");
+        hashtable.put("d", "value:d");
+        hashtable.put("x", "value:x");
+        hashtable.put("u", "value:u");
+        hashtable.put("k", "value:k");
+        hashtable.put("m", "value:m");
+        hashtable.put("b", "value:b");
+        hashtable.put("p", "value:p");
 
         hashtable.get("zxc");
+
+        System.out.println(hashtable);
     }
 
 }
