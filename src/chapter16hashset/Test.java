@@ -1,6 +1,7 @@
 package chapter16hashset;
 
 import java.util.HashSet;
+import java.util.Iterator;
 
 /**
  * Created by Ian.Lu on 2018/2/6.
@@ -40,6 +41,10 @@ public class Test {
         hashSet.add("n");
         hashSet.add("m");
 
-        System.out.println(hashSet);
+        Iterator<String> iterator = hashSet.iterator();
+        while (iterator.hasNext()) {
+            System.out.print(iterator.next() + "  ");
+        }
+
     }
 }
