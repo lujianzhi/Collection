@@ -40,19 +40,46 @@ public class Test {
      */
     private static void compare() {
         HashMap<String, String> map = new HashMap<>();
-        map.put("b", "value:b");
+//        map.put("b", "value:b");
+//        map.put("e", "value:e");
+//        map.put("z", "value:z");
+//        map.put("d", "value:d");
+//        map.put("g", "value:g");
+//        map.put("a", "value:a");
+//        map.put("d", "value:d");
+//        map.put("x", "value:x");
+//        map.put("u", "value:u");
+//        map.put("k", "value:k");
+//        map.put("m", "value:m");
+//        map.put("b", "value:b");
+//        map.put("p", "value:p");
+
+        map.put("q", "value:q");
+        map.put("w", "value:w");
         map.put("e", "value:e");
-        map.put("z", "value:z");
-        map.put("d", "value:d");
-        map.put("g", "value:g");
-        map.put("a", "value:a");
-        map.put("d", "value:d");
-        map.put("x", "value:x");
+        map.put("r", "value:r");
+        map.put("t", "value:t");
+        map.put("y", "value:y");
         map.put("u", "value:u");
-        map.put("k", "value:k");
-        map.put("m", "value:m");
-        map.put("b", "value:b");
+        map.put("i", "value:i");
+        map.put("o", "value:o");
         map.put("p", "value:p");
+        map.put("a", "value:a");
+        map.put("s", "value:s");
+        map.put("d", "value:d");
+        map.put("f", "value:f");
+        map.put("g", "value:g");
+        map.put("h", "value:h");
+        map.put("j", "value:j");
+        map.put("k", "value:k");
+        map.put("l", "value:l");
+        map.put("z", "value:z");
+        map.put("x", "value:x");
+        map.put("c", "value:c");
+        map.put("v", "value:v");
+        map.put("b", "value:b");
+        map.put("n", "value:n");
+        map.put("m", "value:m");
         System.out.println(map);
 
         LinkedHashMap<String, String> linkedMap = new LinkedHashMap<>();
